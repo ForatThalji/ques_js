@@ -125,3 +125,57 @@ var Number=1;
 
 
 printNumberWord(Number);
+
+
+
+
+
+
+
+
+
+
+// ----------------------------------------------
+var separate_alert = 0;
+
+ while(separate_alert <= 5){
+
+  alert(separate_alert);
+
+  separate_alert++;
+ }
+/************** */
+ let single_alert = " ";
+ for(var i = 0; i <= 5; i++ ){
+
+  single_alert += i + " " ;
+ }
+ alert(single_alert);
+/************* */
+ for(let x = 0; x <= 20; x+=3){
+
+    alert(x);
+
+ }
+
+ /*********** */
+
+
+ do {
+  
+ var number = prompt("please enter number between 0 to 100 ");
+
+ } while (number < 0 || number > 100  );
+
+ /*******sum****** */
+
+ sum = parseFloat(prompt("Enter a number to calculate the sum: "));
+ counter = 0;
+
+ while(sum > 0){
+
+  counter += sum;
+  sum --;
+ 
+}
+console.log(counter);
